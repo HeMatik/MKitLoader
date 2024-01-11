@@ -1,0 +1,19 @@
+name: MKitLoader
+version: '${project.version}'
+main: me.matt.mkitloader.MKitLoader
+api-version: '1.20'
+author: Mattgyve1990
+description: A whale plugin that adds commands":"
+             /kit <save/load/delete> <name>
+commands:
+  kit:
+    description: kit command <save/load/delete/auto>
+    usage: /<command> <save/load/delete/auto> <name>
+permissions:
+  mkitloader.save.5:
+    description: give permission to 5 kits
+  mkitloader.save.10:
+    description: give permission to 10 kits
+  mkitloader.save.unlimited:
+    description: give permission to unlimited kits
+    default: op
